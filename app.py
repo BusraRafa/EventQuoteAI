@@ -50,6 +50,8 @@ class QuoteGenerator:
 
 quote_generator = QuoteGenerator()
 
+
+
 @app.route('/generate-quote', methods=['POST'])
 def generate_quote():
     """API endpoint to generate motivational quotes"""

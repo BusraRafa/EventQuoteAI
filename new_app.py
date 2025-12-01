@@ -52,7 +52,10 @@ class QuoteGenerator:
 
 
 quote_generator = QuoteGenerator()
+
+
 # for Post method
+
 @app.route('/generate-quote', methods=['POST'])
 def generate_quote():
     """API endpoint to generate motivational quotes and store them"""
@@ -76,7 +79,10 @@ def generate_quote():
     quotes_storage.extend(quotes)  
 
     return jsonify({"quotes": quotes})
+
 # for Get method
+
+
 @app.route('/get-quotes', methods=['GET'])
 def get_quotes():
     """API endpoint to fetch the generated quotes"""
