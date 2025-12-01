@@ -47,7 +47,7 @@ class QuoteGenerator:
             except Exception as e:
                 yield {"error": str(e)}
 
-# Initialize Quote Generator
+
 quote_generator = QuoteGenerator()
 
 @app.route('/generate-quote', methods=['POST'])
@@ -58,13 +58,13 @@ def generate_quote():
     event_name = data.get("event_name")
     event_description = data.get("event_description")
     category = data.get("category")
-    number = data.get("number", 1)  # Default to 1 if not provided
+    number = data.get("number", 1)  
 
-    # Validate inputs
+    
     if not event_name or not event_description or not category:
         return jsonify({"error": "Missing required parameters: event_name, event_description, or category"}), 400
 
-    # Generate quotes
+    s
     quotes = []
     for quote in quote_generator.generate_quote(event_name, event_description, category, number):
         quotes.append(quote)

@@ -58,9 +58,9 @@ def generate_quote():
     event_name = data.get("event_name")
     event_description = data.get("event_description")
     category = data.get("category")
-    number = data.get("number", 1)  # Default to 1 if not provided
+    number = data.get("number", 1)  
 
-    # Validate inputs
+    
     if not event_name or not event_description or not category:
         return jsonify({"error": "Missing required parameters: event_name, event_description, or category"}), 400
 
@@ -71,13 +71,12 @@ def generate_quote():
 
     return jsonify({"quotes": quotes})
 
-# New GET endpoint for fetching quotes (static or dynamic)
+
 @app.route('/get-quotes', methods=['GET'])
 def get_quotes():
     """API endpoint to fetch quotes for an event"""
     
-    # You can either pull quotes dynamically from a database or generate them via a POST request
-    # For this example, let's return a static quote (you could replace this with dynamic content later)
+    
     
     quotes = [
         {
