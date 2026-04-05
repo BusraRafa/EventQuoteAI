@@ -50,10 +50,10 @@ class QuoteGenerator:
 # Test 
 if __name__ == "__main__":
     quote_generator = QuoteGenerator()
-    event_name = "interview"
-    event_description = "have a interview in a company have to crack the viva." #A challenging math exam covering algebra, calculus, and geometry have to grab all the team members update A challenging math exam covering algebra, calculus, and geometry. have a interview in a company have to crack the viva
-    category = "career" #Brainstorming
-    number = 2
+    event_name = "Exam"
+    event_description = "i have a math exam which is crucial." #A challenging math exam covering algebra, calculus, and geometry have to grab all the team members update A challenging math exam covering algebra, calculus, and geometry. have a interview in a company have to crack the viva
+    category = "studies" #Brainstorming
+    number = 1
 
     for quote in quote_generator.generate_quote(event_name,event_description, category, number):
         print(quote)
