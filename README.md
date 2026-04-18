@@ -138,12 +138,13 @@ Generated Output:
 
 
 ## 🔮 Future Enhancement
-1. Context-aware quotes (time, mood, event type)
-2. Multi-model AI support
-3. API access for third-party integration
-4. Integration with Slack, Notion, Trello
-5. Voice-based event input
-6. Multi-language quote generation
-7. Text-to-speech accessibility support
-8. Emotion detection from event description
-9. Quote explanation feature
+
+1. **Context-aware quotes (time, mood, event type)**
+2. **Multi-model AI support**
+3. **API access for third-party integration**
+4. **Integration with Slack, Notion, Trello**
+5. **Voice-based event input**
+6. **Multi-language quote generation**
+7. **Text-to-speech accessibility support**
+8. **Emotion detection from event description**
+9. **Quote explanation feature**
