@@ -98,8 +98,11 @@ git clone https://github.com/BusraRafa/EventQuoteAI.git
 
 # Navigate into the project directory
 cd EventQuoteAI
+```
 
+```bash
 # Install dependencies
+
 pip install -r requirements.txt
 ```
 ## ▶️ Usage
