@@ -23,7 +23,7 @@ Users provide event details, and the system generates structured quote responses
 EventQuoteAI/
 │── app.py # Main application script
 │── new_app.py # Updated/experimental version of the app
-│── radu.py # Testing / alternative logic
+│── test_app.py # Testing / alternative logic
 ```
 
 ---
@@ -66,4 +66,4 @@ OPENAI_API_KEY=your_api_key_here
 
 - app.py → stable version
 - new_app.py → improved or modified version
-- radu.py → experimental/testing script
+- test_app.py → experimental/testing script
