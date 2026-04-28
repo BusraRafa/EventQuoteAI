@@ -21,9 +21,9 @@ Users provide event details, and the system generates structured quote responses
 ## 📂 Project Structure
 ```
 EventQuoteAI/
-│── app.py # Main application script
-│── new_app.py # Updated/experimental version of the app
-│── test_app.py # Testing / alternative logic
+│── app.py           # Main application script
+│── new_app.py       # Updated/experimental version of the app
+│── test_app.py      # Testing / alternative logic
 ```
 
 ---
