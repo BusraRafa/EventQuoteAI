@@ -1,8 +1,8 @@
 # 🎉 EventQuoteAI
 
-EventQuoteAI is a Python-based AI project that generates event quotations using large language models.  
-It explores how AI can automate event planning and pricing suggestions based on user inputs.
+EventQuoteAI is a Python-based AI application that generates personalized event quotations using large language models. It transforms event details and descriptions into meaningful, motivational quotes tailored to the user’s context.
 
+The system focuses on AI-driven creative content generation rather than pricing or planning suggestions.
 ---
 
 ## 🚀 Overview
