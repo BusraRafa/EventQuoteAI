@@ -18,6 +18,14 @@ Users provide event details, and the system generates structured quote responses
 
 ---
 
+## 📱 Live App
+
+📲 Available on Google Play Store:
+
+[Download InfiniQuote on Google Play](https://play.google.com/store/apps/details?id=com.infiniquote.app)
+
+---
+
 ## 📂 Project Structure
 ```
 EventQuoteAI/
