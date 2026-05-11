@@ -8,14 +8,24 @@ The system focuses on AI-driven creative content generation rather than pricing 
 
 ## 🚀 Overview
 
-This project is an experimental implementation of an AI-powered quote generator for events such as:
+EventQuoteAI accepts any free-text event name, description, and category — there are 
+no restrictions or predefined lists. GPT-4 Turbo uses the context you provide to tailor 
+every quote to your specific event.
 
-- Weddings  
-- Corporate events  
-- Parties  
-- Conferences  
+The more specific and descriptive your `event_description`, the more relevant and 
+tailored the generated quote will be.
 
-Users provide event details, and the system generates structured quote responses.
+---
+
+### Event Types Can Be
+
+| Category | Examples |
+|---|---|
+| **Professional** | Corporate events, product launches, startup pitches, networking events |
+| **Academic** | Conferences, hackathons, thesis defenses, debate competitions |
+| **Cultural & Community** | Art exhibitions, book launches, cultural festivals, charity auctions |
+| **Health & Sports** | Marathons, sports competitions, yoga retreats, charity runs |
+| **Social & Personal** | Weddings, anniversaries, birthday celebrations, retirement parties |
 
 ---
 
